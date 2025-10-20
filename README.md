@@ -9,7 +9,7 @@ Chương trình sử dụng Computer Vision và Machine Learning (MediaPipe) đ�
 - Click chuột
 
 - Điều khiển âm lượng / đèn LED / robot tay qua cổng Serial
-
+---
 ## 🚀 Tính năng chính
 
  ✅ Nhận diện bàn tay và các ngón tay theo thời gian thực                      
@@ -24,16 +24,16 @@ Chương trình sử dụng Computer Vision và Machine Learning (MediaPipe) đ�
 - Giao diện cảm ứng ảo
 
 - Game điều khiển bằng tay
+---
+## ⚙️ Công nghệ sử dụng
 
-## 🧠 Công nghệ sử dụng
-```
-Thành phần	Mô tả
-Python 3.x	Ngôn ngữ chính
-OpenCV	Xử lý hình ảnh và đọc video từ camera
-MediaPipe Hands	Nhận diện bàn tay, xác định 21 điểm landmark
-PyAutoGUI (tuỳ chọn)	Điều khiển chuột, bàn phím
-Serial / PySerial (tuỳ chọn)	Gửi lệnh đến vi điều khiển (Arduino, ESP32, v.v.)
-```
+- **Python 3.8+**
+- **OpenCV** – xử lý video và hiển thị hình ảnh.  
+- **MediaPipe** – nhận diện khớp ngón tay.  
+- **NumPy** – tính toán góc và vector.  
+- (Tùy chọn) **PySerial** – giao tiếp với thiết bị ngoại vi qua cổng COM.  
+
+---
 ## 🧩 Cấu trúc thư mục
 
 ``` css
@@ -68,6 +68,7 @@ pyautogui
 pyserial
 numpy
 ```
+---
 ## ▶️ Chạy chương trình
 ``` python
 python src/main.py
@@ -75,6 +76,7 @@ python src/main.py
 
 💡 Khi chạy, camera sẽ bật lên.
 Di chuyển tay trước camera để xem hệ thống nhận diện và phản ứng.
+---
 
 ## 🧰 Mở rộng
 
@@ -89,5 +91,6 @@ Di chuyển tay trước camera để xem hệ thống nhận diện và phản 
 Đạt Thành                                                                          
 📧 Liên hệ: [thanhdat.developer@gmail.com]                                             
 📅 Năm: 2025
+
 
 
