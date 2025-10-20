@@ -76,12 +76,6 @@ python src/main.py
 💡 Khi chạy, camera sẽ bật lên.
 Di chuyển tay trước camera để xem hệ thống nhận diện và phản ứng.
 
-## 🎮 Ví dụ hành động
-Cử chỉ tay	Hành động
-✊ Nắm tay	Dừng
-☝️ 1 ngón	Di chuyển chuột
-✌️ 2 ngón	Click chuột
-🤙 Thumb + Pinky	Bật/tắt thiết bị qua Serial
 ## 🧰 Mở rộng
 
 - Kết nối với Arduino để điều khiển servo motor / LED / robot arm
@@ -95,4 +89,5 @@ Cử chỉ tay	Hành động
 Đạt Thành                                                                          
 📧 Liên hệ: [thanhdat.developer@gmail.com]                                             
 📅 Năm: 2025
+
 
