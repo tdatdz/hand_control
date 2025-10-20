@@ -12,10 +12,10 @@ Chương trình sử dụng Computer Vision và Machine Learning (MediaPipe) đ�
 
 ## 🚀 Tính năng chính
 
-✅ Nhận diện bàn tay và các ngón tay theo thời gian thực
-✅ Xác định toạ độ và cử chỉ tay (giơ 1 ngón, 2 ngón, nắm đấm, v.v.)
-✅ Giao tiếp với máy tính hoặc thiết bị Arduino qua Serial hoặc PyAutoGUI
-✅ Có thể mở rộng cho các ứng dụng:
+ ✅ Nhận diện bàn tay và các ngón tay theo thời gian thực                      
+ ✅ Xác định toạ độ và cử chỉ tay (giơ 1 ngón, 2 ngón, nắm đấm, v.v.)            
+ ✅ Giao tiếp với máy tính hoặc thiết bị Arduino qua Serial hoặc PyAutoGUI              
+ ✅ Có thể mở rộng cho các ứng dụng:
 
 - Điều khiển con trỏ chuột
 
@@ -25,14 +25,18 @@ Chương trình sử dụng Computer Vision và Machine Learning (MediaPipe) đ�
 
 - Game điều khiển bằng tay
 
-🧠 Công nghệ sử dụng
+## 🧠 Công nghệ sử dụng
+```
 Thành phần	Mô tả
 Python 3.x	Ngôn ngữ chính
 OpenCV	Xử lý hình ảnh và đọc video từ camera
 MediaPipe Hands	Nhận diện bàn tay, xác định 21 điểm landmark
 PyAutoGUI (tuỳ chọn)	Điều khiển chuột, bàn phím
 Serial / PySerial (tuỳ chọn)	Gửi lệnh đến vi điều khiển (Arduino, ESP32, v.v.)
-🧩 Cấu trúc thư mục
+```
+## 🧩 Cấu trúc thư mục
+
+``` css
 hand-control/
 │
 ├── src/
@@ -44,47 +48,51 @@ hand-control/
 ├── requirements.txt      # Danh sách thư viện
 ├── README.md             # Tài liệu dự án
 └── output/               # Ảnh hoặc log kết quả
-
-⚙️ Cài đặt
+```
+## ⚙️ Cài đặt
 1️⃣ Clone dự án
+``` css
 git clone https://github.com/yourname/hand-control.git
 cd hand-control
-
+```
 2️⃣ Cài thư viện cần thiết
+```css
 pip install -r requirements.txt
+```
 
-
-📄 File requirements.txt ví dụ:
-
+` 📄 File requirements.txt ví dụ:
+``` css
 opencv-python
 mediapipe
 pyautogui
 pyserial
 numpy
-
-▶️ Chạy chương trình
+```
+## ▶️ Chạy chương trình
+``` python
 python src/main.py
-
+```
 
 💡 Khi chạy, camera sẽ bật lên.
 Di chuyển tay trước camera để xem hệ thống nhận diện và phản ứng.
 
-🎮 Ví dụ hành động
+## 🎮 Ví dụ hành động
 Cử chỉ tay	Hành động
 ✊ Nắm tay	Dừng
 ☝️ 1 ngón	Di chuyển chuột
 ✌️ 2 ngón	Click chuột
 🤙 Thumb + Pinky	Bật/tắt thiết bị qua Serial
-🧰 Mở rộng
+## 🧰 Mở rộng
 
-Kết nối với Arduino để điều khiển servo motor / LED / robot arm
+- Kết nối với Arduino để điều khiển servo motor / LED / robot arm
 
-Kết hợp với MediaPipe Pose để điều khiển toàn thân
+- Kết hợp với MediaPipe Pose để điều khiển toàn thân
 
-Huấn luyện thêm mô hình gesture bằng TensorFlow Lite
+- Huấn luyện thêm mô hình gesture bằng TensorFlow Lite
 
-👨‍💻 Tác giả
+## 👨‍💻 Tác giả
 
-Đạt Thành
-📧 Liên hệ: [thêm email hoặc GitHub nếu muốn]
+Đạt Thành                                                                          
+📧 Liên hệ: [thanhdat.developer@gmail.com]                                             
 📅 Năm: 2025
+
