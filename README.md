@@ -60,7 +60,7 @@ cd hand-control
 pip install -r requirements.txt
 ```
 
-` 📄 File requirements.txt ví dụ:
+📄 File requirements.txt ví dụ:
 ``` css
 opencv-python
 mediapipe
@@ -91,6 +91,7 @@ Di chuyển tay trước camera để xem hệ thống nhận diện và phản 
 Đạt Thành                                                                          
 📧 Liên hệ: [thanhdat.developer@gmail.com]                                             
 📅 Năm: 2025
+
 
 
 
